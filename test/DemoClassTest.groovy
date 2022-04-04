@@ -13,6 +13,6 @@ class DemoClassTest extends BasePipelineTest {
     void demoTest() throws Exception {
         String result = script.call("abcd")
 
-        assertEquals("dcba", result)
+        assertEquals("dba", result)
     }
 }
