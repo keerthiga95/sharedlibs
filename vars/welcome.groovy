@@ -1,3 +1,4 @@
-def call(name){
- echo "Hey, $(name), How are you?"
+def call(String s) {
+    DemoClass demoClass = new DemoClass()
+    return demoClass.demoMethod(s)
 }
